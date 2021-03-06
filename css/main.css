@@ -24,7 +24,9 @@
 header {
   background-color: var(--cream);
   height: 100vh;
-  max-height: 830px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero {
