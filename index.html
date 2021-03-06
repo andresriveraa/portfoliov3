@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/locomotive-scroll.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,75 +20,75 @@
 
 <body>
 
-  <div class="global-wrapper">
-    <div id="wrap" class="rotate-wrap">
-      <nav class="navbar">
-        <ul>
-          <li>Contacto</li>
-          <li>Proyectos</li>
-        </ul>
-      </nav>
+  <div class="global-wrapper js-scroll">
+    <nav class="navbar">
+      <ul>
+        <li>Contacto</li>
+        <li>Proyectos</li>
+      </ul>
+    </nav>
 
-      <header>
-        <div class="hero">
-          <div class="cubeBackground">
-            <div class="cube"></div>
-          </div>
-          <div class="name skew">
-            <p class="">
-              Hola, soy
-            </p>
-            <h1 class="">
-              Andrés Rivera<span class="asterisc">*</span>
-            </h1>
-          </div>
-          <div class="abstract skew">
-            <p class="">
-              Llevo más de dos años siendo feliz uniendo el diseño gráfico y del desarrollo frontend en mis proyectos,
-              para
-              crear experiencias únicas en los usuarios del producto.
-            </p>
-            <p>
-              Creyente del gran poder de css, y estudiando y mejorando a diario la accesibilidad web.
-            </p>
-          </div>
-          <h5 class="aclaration">
-            *Diseñador y desarrollador web
-          </h5>
-          <div class="line">
-            <svg class="figure">
-              <line x1="0" y1="0" x2="100%" y2="100%" style="stroke:var(--black); stroke-width:2" />
-            </svg>
-          </div>
-          <div class="triangle">
-            <svg class="figure" viewBox="0 0 442 461" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M111.939 454.885C98.3908 466.283 77.5839 458.741 74.4867 441.309L0.90951 27.1849C-2.18765 9.75249 14.7477 -4.49562 31.3932 1.53831L426.824 144.88C443.469 150.914 447.341 172.705 433.792 184.103L111.939 454.885Z"
-                fill="var(--blue)" />
-            </svg>
-          </div>
-          <div class="circle">
-            <svg class="figure" height="120" width="120">
-              <circle cx="60" cy="60" r="60" stroke="black" stroke-width="0" fill="var(--yellow)" />
-            </svg>
-          </div>
-          <div class="hero--img">
-            <figure class="">
-              <img src="/assets/img/Andres.png" alt="">
-            </figure>
-          </div>
+    <div id="wrap" data-scroll-container ">
+      <header id=" header" data-scroll-section>
+      <div class="hero">
+        <div class="cubeBackground">
+          <div class="cube"></div>
         </div>
+        <div data-scroll class="name skew">
+          <p class="">
+            Hola, soy
+          </p>
+          <h1 class="">
+            Andrés Rivera<span class="asterisc">*</span>
+          </h1>
+        </div>
+        <div class="abstract skew">
+          <p class="">
+            Llevo más de dos años siendo feliz uniendo el diseño gráfico y del desarrollo frontend en mis proyectos,
+            para
+            crear experiencias únicas en los usuarios del producto.
+          </p>
+          <p>
+            Creyente del gran poder de css, y estudiando y mejorando a diario la accesibilidad web.
+          </p>
+        </div>
+        <h5 class="aclaration">
+          *Diseñador y desarrollador web
+        </h5>
+        <div class="line">
+          <svg class="figure">
+            <line x1="0" y1="0" x2="100%" y2="100%" style="stroke:var(--black); stroke-width:2" />
+          </svg>
+        </div>
+        <div class="triangle">
+          <svg class="figure" viewBox="0 0 442 461" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M111.939 454.885C98.3908 466.283 77.5839 458.741 74.4867 441.309L0.90951 27.1849C-2.18765 9.75249 14.7477 -4.49562 31.3932 1.53831L426.824 144.88C443.469 150.914 447.341 172.705 433.792 184.103L111.939 454.885Z"
+              fill="var(--blue)" />
+          </svg>
+        </div>
+        <div class="circle">
+          <svg class="figure" height="120" width="120">
+            <circle cx="60" cy="60" r="60" stroke="black" stroke-width="0" fill="var(--yellow)" />
+          </svg>
+        </div>
+        <div class="hero--img">
+          <figure class="">
+            <img src="/assets/img/Andres.png" alt="">
+          </figure>
+        </div>
+      </div>
 
       </header>
 
-      <main class="projects">
+      <main id="main" class="projects" data-scroll-section>
         <div class="figures">
           <div class="triangle"></div>
           <div class="cirle1"></div>
           <div class="cirle2"></div>
         </div>
         <div class="projects--title">
-          <h1>
+          <h1 data-scroll>
             Proyectos
           </h1>
           <h3>
@@ -121,7 +123,7 @@
         </div>
       </main>
 
-      <footer>
+      <footer id="footer" class="" data-scroll-section>
         <address>
           ¿Quieres comenzar algún proyecto?
         </address>
@@ -131,6 +133,9 @@
       </footer>
     </div>
   </div>
+
+  <!-- <script src="/js/scroll.js"></script> -->
+  <script src="/js/locomotive-scroll.min.js"></script>
   <script src="/js/scroll.js"></script>
 </body>
 

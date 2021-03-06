@@ -5,6 +5,7 @@
   padding: 24px;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 
 .navbar ul {
@@ -17,10 +18,8 @@
 }
 
 .navbar ul li {
-  /* font-size: 0px; */
 }
 
-/************** hero */
 header {
   background-color: var(--cream);
   height: 100vh;
@@ -76,10 +75,12 @@ header {
   transform-style: preserve-3d;
   animation-delay: .5s;
   font-size: 20px;
+  white-space: normal !important;
 }
 
 .hero .abstract p{
   margin-bottom: 8px;
+  max-width: 500px;
 }
 
 .cubeBackground {

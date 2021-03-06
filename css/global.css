@@ -24,7 +24,7 @@
 body {
   font-family: var(--second-font);
 }
-.global-wrapper {
+/* .global-wrapper {
   width: 100vh;
   height: 100vw;
   transform: rotate(-90deg) translateX(-100vh) ;
@@ -40,10 +40,10 @@ body {
   width: 300vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
-}
+} */
 header, main, footer {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--main-font);
