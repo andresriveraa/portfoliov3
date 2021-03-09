@@ -23,7 +23,7 @@
 
 <body>
 
-  <div class="global-wrapper js-scroll">
+  <div id="app" class="global-wrapper js-scroll loadHide">
     <nav class="navbar">
       <ul>
         <!-- <li id="" onclick="goTo(Header)">
@@ -85,7 +85,7 @@
           </div>
           <div class="hero--img">
             <figure class="">
-              <img src="/assets/img/Andres.png" alt="">
+              <img id="imgHero" src="http://www.andresrivera.com.co/assets/img/Andres.png" alt="Andres rivera">
             </figure>
           </div>
         </div>
@@ -199,8 +199,35 @@
       </footer>
     </div>
   </div>
+
+  <div class="load" id="Load">
+    <div class="wrapload">
+
+      <div class="triangleLoad">
+        <svg class="figure" viewBox="0 0 442 461" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M111.939 454.885C98.3908 466.283 77.5839 458.741 74.4867 441.309L0.90951 27.1849C-2.18765 9.75249 14.7477 -4.49562 31.3932 1.53831L426.824 144.88C443.469 150.914 447.341 172.705 433.792 184.103L111.939 454.885Z"
+            fill="var(--blue)" />
+        </svg>
+      </div>
+      <div class="circleLoad">
+        <svg class="figure">
+          <circle cx="50%" cy="50%" r="50%" stroke="black" stroke-width="0" fill="var(--yellow)" />
+        </svg>
+      </div>
+      <div class="rectLoad">
+        <svg class="cuadro" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="100%" height="100%" fill="#303030" fill-opacity="0.75" />
+        </svg>
+      </div>
+    </div>
+    <p>Load...</p>
+
+  </div>
+
   <script src="/js/locomotive-scroll.min.js"></script>
   <script src="/js/scroll.js"></script>
+  <script src="/js/animation.js"></script>
 </body>
 
 </html>

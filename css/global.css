@@ -23,6 +23,7 @@
 
 body {
   font-family: var(--second-font);
+  background-color: var(--cream);
 }
 
 header, main, footer {

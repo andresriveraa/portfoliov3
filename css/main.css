@@ -1,4 +1,6 @@
-
+#app {
+  transition: 8s;
+}
 .navbar {
   width: 100vw;
   height: auto;
@@ -18,6 +20,68 @@
 }
 
 .navbar ul li {
+}
+
+.loadHide {
+  opacity: 0;
+}
+
+.load {
+  background-color: var(--cream);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapload {
+  position: relative;
+  height: 40vh;
+    width: 40vw;
+}
+
+.load .rectLoad ,
+.load .circleLoad ,
+.load .triangleLoad  {
+  position: absolute;
+}
+.load .rectLoad {
+  top: 23%;
+  left: 44%;
+}
+.load .circleLoad {
+  top: 40%;
+  left: 54%;
+} 
+.load .triangleLoad  {
+  top: 5%;
+  left: 34%;
+}
+
+.load .rectLoad svg,
+.load .circleLoad svg,
+.load .triangleLoad svg {
+  animation-name: load;
+  animation-duration: 10s;
+  animation-timing-function:ease-out;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  width: 200px;
+  height: 200px;
+}
+
+@keyframes load {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
 }
 
 header {
