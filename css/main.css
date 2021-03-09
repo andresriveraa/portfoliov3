@@ -30,6 +30,7 @@ header {
 
 .hero {
   height: 100%;
+  width: 1366px;
   max-width: 1366px;
   max-height: 720px;
   margin: auto;

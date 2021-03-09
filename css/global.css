@@ -24,27 +24,19 @@
 body {
   font-family: var(--second-font);
 }
-/* .global-wrapper {
-  width: 100vh;
-  height: 100vw;
-  transform: rotate(-90deg) translateX(-100vh) ;
-  transform-origin: top left;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  position: absolute;
-}
 
-.rotate-wrap {
-  display: flex;
-  flex-direction: row;
-  width: 300vw;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
-} */
 header, main, footer {
   width: 100vw;
-  /* height: 100vh; */
+  height: 100vh;
 }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--main-font);
   font-weight: 100;
@@ -61,7 +53,16 @@ ul {
   padding: 0%;
 }
 
-.grid {
+a, address {
+  text-decoration: none;
+  font-family: var(--second-font);
+  
+}
+
+.grid {  
+  width: 1366px;
+  height: 695px;
+  display: grid;
   grid-template-columns: 5.5% 5.5% 22.5% 11% 5.5% 5.5% 11% 22.5%  5.5% 5.5%;
   grid-template-rows:10.5% 10.5% 10.5% 16.6% 16.6% 10.5% 10.5% 10.5%;
 }

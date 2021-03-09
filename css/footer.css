@@ -1,3 +1,56 @@
 footer {
   background-color: var(--blue);
 }
+
+.figures {
+  position: relative;
+  grid-column: 3 / span 6;
+  grid-row: 2 / -2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.figures svg:not(.cuadro) {
+  position: absolute;
+  z-index: 2;
+}
+
+.circleContact {
+  left: 153px;
+  top: 61px;
+  z-index: -1;
+}
+
+.ellipse {
+  bottom: -114px;
+  right: 116px;
+}
+
+.question {
+  grid-column: 3 / span 2;
+  grid-row: 3 / span 2;
+  z-index: 2;
+}
+
+.question h2{
+  font-size: 120px;
+  font-family: var(--main-font);
+  color: var(--white);
+  width: 100%;
+  line-height: 80px;
+}
+
+.mail {
+  grid-column: 6 / span 3;
+  grid-row: 6 / span 2;
+  z-index: 3;
+  font-size: 40px;
+}
+
+.mail a {
+  color: var(--white);
+  text-decoration: underline;
+  font-style: normal;
+}
