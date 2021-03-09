@@ -59,6 +59,19 @@ a, address {
   
 }
 
+.navbar li {
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  cursor: pointer;
+  letter-spacing: .05em;
+  transition: all .5s cubic-bezier(.77,0,.175,1);
+  transform-origin: 0 0;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
 .grid {
   height: 100%;
   width: 100%;

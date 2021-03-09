@@ -19,3 +19,12 @@ const animationScroll = (e) => {
   if (e.deltaY > 0) console.log('mayor');
   else if (e.deltaY < 0) console.log('menor');
 }
+
+const Header = document.getElementById('Header');
+const main = document.getElementById('main');
+const footer = document.getElementById('footer');
+
+
+const goTo = (target) => {
+  scroll.scrollTo(target);
+}
