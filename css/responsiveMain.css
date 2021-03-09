@@ -1,0 +1,35 @@
+@media screen and (min-width: 1400px) {
+  .hero .name p{
+    font-size: 64px;
+  }
+
+  .hero .name h1 {
+    font-size: 174px;
+  }
+
+  .hero .abstract p{
+    font-size: 28px;
+  }
+  .hero .aclaration {
+    font-size: 56px;
+  }
+  .hero--img {
+    grid-row: 2/-2;
+    margin-left: 24px;
+  }
+
+  .hero--img figure {
+    height: 761px;
+  }
+
+  .line svg {
+    width: 460px;
+    height: 680px;
+  }
+  
+  .circle svg {
+    height: 200px;
+    width: 200px;
+  }
+
+}

@@ -30,9 +30,9 @@ header {
 
 .hero {
   height: 100%;
-  width: 1366px;
-  max-width: 1366px;
-  max-height: 720px;
+  width: 100%;
+  max-width: 1900px;
+  max-height: 1000px;
   margin: auto;
   display: grid;
   grid-template-columns: 5.5% 5.5% 22.5% 11% 5.5% 5.5% 11% 22.5%  5.5% 5.5%;
@@ -49,6 +49,7 @@ header {
   position: relative;
   z-index: 2;
 }
+
 
 .hero .name h1{
   margin-top: -24px;
@@ -81,7 +82,7 @@ header {
 
 .hero .abstract p{
   margin-bottom: 8px;
-  max-width: 500px;
+  /* max-width: 500px; */
 }
 
 .cubeBackground {
@@ -133,10 +134,12 @@ header {
   grid-row: 3 / 7;
   grid-column: 7 / span 2;
   margin-top: 40px;
+}
+
+.triangle svg {
   animation-name: rotate;
   animation-duration: 90s;
   animation-iteration-count: infinite;
-  transform-origin: 50% 55%;
 }
 
 @keyframes rotate {
@@ -174,6 +177,12 @@ header {
   left: 220px;
   z-index: 2;
   margin-left: -60px;
+}
+
+.circle svg {
+  height: 120px;
+  width: 120px;
+  
 }
 
 /************** hero */
