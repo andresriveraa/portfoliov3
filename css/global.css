@@ -59,9 +59,11 @@ a, address {
   
 }
 
-.grid {  
-  width: 1366px;
-  height: 695px;
+.grid {
+  height: 100%;
+  width: 100%;
+  max-width: 1900px;
+  max-height: 1000px;
   display: grid;
   grid-template-columns: 5.5% 5.5% 22.5% 11% 5.5% 5.5% 11% 22.5%  5.5% 5.5%;
   grid-template-rows:10.5% 10.5% 10.5% 16.6% 16.6% 10.5% 10.5% 10.5%;
@@ -82,5 +84,29 @@ a, address {
   100% {
     transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .center {
+    height: auto;
+  }
+
+  header, main, footer {
+    height: auto;
+  }
+
+  .grid {
+    display: block;
+  }
+
+  h2 {
+    font-size: 56px;
+}
+}
+
+@media screen and (min-width: 1400px) {
+  h2 {
+    font-size: 106px;
   }
 }

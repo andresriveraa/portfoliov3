@@ -7,6 +7,12 @@ const scroll = new LocomotiveScroll({
   direction: 'horizontal',
   lerp: 0.05,
   multiplier,
+  smartphone: {
+    747: {
+      direction: 'vertical',
+      smooth: true,
+    }  
+  }
 });
 
 const animationScroll = (e) => {

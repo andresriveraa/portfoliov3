@@ -1,0 +1,48 @@
+@media screen and (max-width: 767px) {
+#footer .center .grid {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#footer .figures svg:not(.circleContact) {
+  display: none;
+}
+
+.circleContact {
+  left: -135px;
+  top: 24px;
+}
+
+.question {
+  margin-bottom: 80px ;
+}
+.question h2 {
+  font-size: 72px;
+  line-height: 3rem;
+  text-align: center;
+}
+
+  .mail {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #footer .center .grid {
+    max-width: 1501px;
+    max-height: 730px;
+  }
+
+  .question h2 {
+    font-size: 160px ;
+    line-height: 106px;
+  }
+
+  .mail {
+    font-size: 44px;
+  }
+}

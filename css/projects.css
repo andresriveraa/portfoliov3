@@ -80,3 +80,9 @@ main {
   justify-content: flex-end;
   margin-top: -62px;
 }
+
+.triangleProject svg {
+  width: 351px;
+  height: 290px;
+}
+

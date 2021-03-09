@@ -1,3 +1,89 @@
+@media screen and (max-width: 767px) {
+  header {
+    height: auto;
+  }
+  .hero {
+    height: auto;
+    width: 100vw;
+    display: block;
+    max-height: none;
+    max-width: none;
+    position: relative;
+  }
+
+  .hero .name {
+    margin-top: 120px;
+  }
+  
+  .hero .name p {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .hero .name h1 {
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 0;
+    font-size: 109px;
+    line-height: 5rem;
+  }
+
+  .cubeBackground {
+    margin-top: 120px;
+    position: absolute;
+    left: 4%;
+    top: 3%;
+  }
+
+  .cubeBackground .cube {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero .abstract {
+    width: 80%;
+    margin: auto;
+  }
+
+  .hero .aclaration {
+    text-align: center;
+    margin: 49px auto;
+    font-size: 32px;
+  }
+
+  .triangle {
+    width: 324px;
+    height: 324px;
+    position: absolute;
+  }
+
+  .triangle svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero--img figure {
+    height: 430px;
+    margin-left: -28px;
+  }
+
+  .line svg {
+    width: 350px;
+    height: 520px;
+  }
+
+  .circle {
+    position: absolute;
+    right: 127px;
+    bottom: 139px;
+    z-index: 3;
+  }
+
+  .circle svg {
+    height: 120px;
+    width: 120px;
+  }
+}
 @media screen and (min-width: 1400px) {
   .hero .name p{
     font-size: 64px;
