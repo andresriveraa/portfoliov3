@@ -74,7 +74,8 @@
   }
 
   .hero--img figure {
-    height: 430px;
+    width: 350px;
+    height: 430px !important;
     margin-left: -28px;
   }
 
@@ -116,7 +117,8 @@
   }
 
   .hero--img figure {
-    height: 761px;
+    height: 761px !important;
+    width: 620px !important;
   }
 
   .line svg {

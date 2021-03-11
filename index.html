@@ -6,21 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andrés Rivera | Hero</title>
-  <link rel="stylesheet" href="css/locomotive-scroll.css">
+  <link rel="preload" href="css/global.css" as="style">
   <link rel="stylesheet" href="css/global.css">
+  <link rel="preload" href="css/main.css" as="style">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="preload" href="css/responsiveMain.css" as="style">
   <link rel="stylesheet" href="css/responsiveMain.css">
+  <link rel="preload" href="css/projects.css" as="style">
   <link rel="stylesheet" href="css/projects.css">
+  <link rel="preload" href="css/responsiveProjects.css" as="style">
   <link rel="stylesheet" href="css/responsiveProjects.css">
+  <link rel="preload" href="css/footer.css" as="style">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="preload" href="css/responsiveFooter.css" as="style">
   <link rel="stylesheet" href="css/responsiveFooter.css">
+  <link rel="preload" href="css/locomotive-scroll.css" as="style">
+  <link rel="stylesheet" href="css/locomotive-scroll.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet" media="print">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" media="print">
   <!-- Facebook Pixel Code -->
-  <script>
+  <script async>
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
@@ -39,7 +47,7 @@
       src="https://www.facebook.com/tr?id=555302095037882&ev=PageView&noscript=1" /></noscript>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142685591-1"></script>
-  <script>
+  <script async>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
@@ -92,9 +100,9 @@
               Creyente del gran poder de css, y estudiando y mejorando a diario la accesibilidad web.
             </p>
           </div>
-          <h5 class="aclaration">
+          <h2 class="aclaration">
             *Diseñador y desarrollador web
-          </h5>
+          </h2>
           <div class="line">
             <svg class="figure">
               <line x1="0" y1="0" x2="100%" y2="100%" style="stroke:var(--black); stroke-width:2" />
@@ -114,7 +122,7 @@
           </div>
           <div class="hero--img">
             <figure class="">
-              <img id="imgHero" src="/assets/img/Andres.png" alt="Andres rivera">
+              <img id="imgHero" src="/assets/img/Andres.png" alt="Andres rivera" width="520" height="620px">
             </figure>
           </div>
         </div>
@@ -148,14 +156,14 @@
               <h1>
                 Proyectos
               </h1>
-              <h3>
+              <p>
                 Escogidos
-              </h3>
+              </p>
             </div>
 
             <div class="projects--links">
               <div class="arteser" data-scroll data-scroll-speed="1">
-                <a href="https://www.arteser.es">
+                <a rel="noreferrer" href="https://www.arteser.es">
                   <h2 class="nameProject">
                     Arteser
                   </h2>
@@ -165,7 +173,7 @@
                 </a>
               </div>
               <div class="veronica" data-scroll data-scroll-speed="1">
-                <a href="https://veronicabonilla.com.co/">
+                <a rel="noreferrer" href="https://veronicabonilla.com.co/">
                   <h2 class="nameProject">
                     Verónica Bonilla
                   </h2>
@@ -175,7 +183,7 @@
                 </a>
               </div>
               <div class="blood" data-scroll data-scroll-speed="1">
-                <a href="https://www.behance.net/gallery/99914169/Barato" target="_blank">
+                <a rel="noreferrer" href="https://www.behance.net/gallery/99914169/Barato" target="_blank">
                   <h2 class="nameProject">
                     Barato
                   </h2>
@@ -221,7 +229,7 @@
               </h2>
             </address>
             <address class="mail" data-scroll data-scroll-speed="1" data-scroll-offset="100,50%">
-              <a href="mailto:hello@andresrivera.com.co">hello@andresrivera.com.co</a>.
+              <a rel="noreferrer" ` href="mailto:hello@andresrivera.com.co">hello@andresrivera.com.co</a>.
             </address>
           </div>
         </div>

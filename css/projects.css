@@ -22,9 +22,10 @@ main {
   font-size: 140px;
 }
 
-.projects--title h3{
+.projects--title p{
   color: var(--yellow);
   font-size: 56px;
+  font-family: var(--main-font);
   width: 326px;
   text-align: right;
   margin-top: -56px;
