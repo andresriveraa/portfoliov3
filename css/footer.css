@@ -54,3 +54,13 @@ footer {
   text-decoration: underline;
   font-style: normal;
 }
+
+.rrss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rrss a {
+  margin: 16px;
+}
