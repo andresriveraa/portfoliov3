@@ -20,7 +20,7 @@ const animationScroll = (e) => {
   else if (e.deltaY < 0) console.log('menor');
 }
 
-const Header = document.getElementById('Header');
+const Header = document.getElementById('hero');
 const main = document.getElementById('main');
 const footer = document.getElementById('footer');
 
